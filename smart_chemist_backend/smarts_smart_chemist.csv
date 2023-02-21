@@ -67,6 +67,32 @@ C1-N-C1,Aziridine,functional_group
 "[#6](-[F,Cl,Br,I])(-[F,Cl,Br,I])-[F,Cl,Br,I]",Trihalide,functional_group
 "[#6](-[F,Cl,Br,I])-[#6]-[F,Cl,Br,I]",Vic*dihalide,functional_group
 [#6](=C)-[Si](-[#6])(-[#6])-[#6],Vinylsilane,functional_group
+[#6H3X4],Methyl,functional_group
+[#6H3X4]-[#6X4H2],Ethyl,functional_group
+[#6H3X4]-[#6X4H2]-[#6X4H2],Propyl,functional_group
+[#6H3X4]-[#6X4H2]-[#6X4H2]-[#6X4H2],Butyl,functional_group
+[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Pently,functional_group
+[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Hexyl,functional_group
+[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Heptyl,functional_group
+[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Octyl,functional_group
+[#6H2]([#6H3])[#6H3],Isopropyl,functional_group
+[#6H1]=N-[O;H1],Aldoxime,functional_group
+"[#7X3H2$(*[#6]),#7X4+H3$(*[#6])]",Primary Amine,functional_group
+"[#7X3H1$(*([#6])[#6]),#7X4+H2$(*([#6])[#6])]",Secondary Amine,functional_group
+"[#7X3H0$(*([#6])([#6])[#6]),#7X4+H1$(*([#6])([#6])[#6])]",Tertiary Amine,functional_group
+[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Nonyl,functional_group
+[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Decyl,functional_group
+[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Undecyl,functional_group
+[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Dodecyl,functional_group
+[SX4!R](=O)(=O)[NX3!R],Sulfonamide,functional_group
+[CX3H1]=[NX2H1],Primary aldimine,functional_group
+[CX3H1]=[NX2H0],Secondary aldimine,functional_group
+[CX3H0]=[NX2H1],Primary ketimine,functional_group
+[CX3H0]=[NX2H0],Secondary ketimine,functional_group
+[NX4+H0],Quartenary Amine,functional_group
+[NX3!H2][NX3],Hydrazide,functional_group
+[SX4R](=O)(=O)[NX3R],Sultam,functional_group
+[SX4!R](=O)(=O)[NX2!R],Sulfonimide,functional_group
 c1ccco1,Furane,cyclic
 c1nccc1,Pyrolle,cyclic
 c1[nX2][nX3]cc1,Pyrazole,cyclic
@@ -89,7 +115,7 @@ C1COCCO1,Dioxane,cyclic
 c1coc2c1cccc2,Benzofurane,cyclic
 c1c2c([nX3]c1)cccc2,Indole,cyclic
 c1[nX2]c2c(cc1)cccc2,Chinoline,cyclic
-c1[nX2]c2c([nH1D2]1)[nX2]c[nX2]c2,Purine,cyclic
+c1nc2c([nv3]1)ncnc2,Purine,cyclic
 C1NC1,Aziridine,cyclic
 C1N=C1,2H-azirine,cyclic
 C1SC1,Thiirane,cyclic
@@ -174,40 +200,14 @@ c1c2c(ccc1)csc=2,Benzo[c]thiophene,cyclic
 c1c2c(ccc1)scc2,Benzo[b]thiophene,cyclic
 c1c2c(ccc1)c[nX2]o2,Benzo[d]isoxazole,cyclic
 c1cccc2c1[nX2]oc2,Benzo[c]isoxazole,cyclic
-[#6H3X4],Methyl,functional_group
-[#6H3X4]-[#6X4H2],Ethyl,functional_group
-[#6H3X4]-[#6X4H2]-[#6X4H2],Propyl,functional_group
-[#6H3X4]-[#6X4H2]-[#6X4H2]-[#6X4H2],Butyl,functional_group
-[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Pently,functional_group
-[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Hexyl,functional_group
-[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Heptyl,functional_group
-[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Octyl,functional_group
-[#6H2]([#6H3])[#6H3],Isopropyl,functional_group
 c1ccccc1,Benzene,cyclic
 C1CCCCC1,Cyclohexane,cyclic
 C1CCCC1,Cyclopentane,cyclic
-[#6H1]=N-[O;H1],Aldoxime,functional_group
-"[#7X3H2$(*[#6]),#7X4+H3$(*[#6])]",Primary Amine,functional_group
-"[#7X3H1$(*([#6])[#6]),#7X4+H2$(*([#6])[#6])]",Secondary Amine,functional_group
-"[#7X3H0$(*([#6])([#6])[#6]),#7X4+H1$(*([#6])([#6])[#6])]",Tertiary Amine,functional_group
-[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Nonyl,functional_group
-[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Decyl,functional_group
-[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Undecyl,functional_group
-[#6H3X4][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2][#6X4H2],Dodecyl,functional_group
-[SX4!R](=O)(=O)[NX3!R],Sulfonamide,functional_group
-[CX3H1]=[NX2H1],Primary aldimine,functional_group
-[CX3H1]=[NX2H0],Secondary aldimine,functional_group
-[CX3H0]=[NX2H1],Primary ketimine,functional_group
-[CX3H0]=[NX2H0],Secondary ketimine,functional_group
 o1ncnc1,"1,2,4-oxadiazole",cyclic
 s1ncnc1,"1,2,4-thiadiazole",cyclic
 s1nncc1,"1,2,3-thiadiazole",cyclic
 C1=CCS(C1)(=O)=O,Sulfolene,cyclic
 [nX2]1[nX2]cc[nX2]c1,"1,2,4-triazine",cyclic
-[NX4+H0],Quartenary Amine,functional_group
-[NX3!H2][NX3],Hydrazide,functional_group
-[SX4R](=O)(=O)[NX3R],Sultam,functional_group
-[SX4!R](=O)(=O)[NX2!R],Sulfonimide,functional_group
 c1c2ccccc2ccc1,Naphtalene,cyclic
 C1CCC1,Cyclobutane,cyclic
 C1CC1,Cyclopropane,cyclic
@@ -220,3 +220,66 @@ C1CCCCCCCCCCC1,Cyclododecane,cyclic
 c1ccccc1-c2ccccc2,Biphenyl,cyclic
 c1cccc2c(cc1)cc2,Bicyclodecapentaene,cyclic
 c1cccc2cccc2c1,Azulene,cyclic
+c1c2c(ccc1)cs[nX2]2,Benzo[c]isothiazole,cyclic
+c1c2c(ccc1)c[nX2]s2,Benzo[d]isothiazole,cyclic
+c1c2c(ccc1)oc[nX2]2,Benzo[d]oxazole,cyclic
+c1cccc2c1[nX2]cs2,Benzo[d]thiazole,cyclic
+c1cccc2c1[nX2]s[nX2]2,"Benzo[c][1,2,5]thiadiazole",cyclic
+c1cccc2c1S[NX3]C2=O,"1,2-benzisothiazole-3(2H)-one",cyclic
+[nX2]1c[nX3]c(c2c1[nX2]c[nX3]2)[NX3],Adenine,cyclic
+[nX2]1c2c(c([nX2]c1[NX3])=O)[nX2]c[nX3]2,Guanine,cyclic
+C1C2C(CCC1)C[NX3]CC2,Decahydroisoquinoline,cyclic
+C1C2C(CCC1)[NX3]CCC2,Decahydoquinoline,cyclic
+"c1c2c(ccc1)[NX3,NX2+]CCC2",Tetrahydroquinoline,cyclic
+"c1cccc2c1C=CC[NX3,NX2+1]2","1,2-dihydroquinoline",cyclic
+"c1cccc2c1C=C[NX3,NX2+1]C2","1,2-dihydroisoquinoline",cyclic
+c1cccc2c1cc[nX2]c2,Isoquinoline,cyclic
+c1cccc2c1[nX2]ccc2,Quinoline,cyclic
+c1c2c(ccc1)nccn2,Quinoxaline,cyclic
+c1c2c(ccc1)cnnc2,Phtalazine,cyclic
+c1c2c(ccc1)ncnc2,Quinazoline,cyclic
+c1c2c(ccc1)nncc2,Cinnoline,cyclic
+c1c2c(ncc1)nccc2,"1,8-naphthydrine",cyclic
+c1ccnc2c1ncnc2,"Pyrido[3,2-d]pyrimidine",cyclic
+c1cncc2c1ncnc2,"Pyrido[4,3-d]pyrimidine",cyclic
+c1cncc2c1nccn2,"Pyrido[3,4-b]pyrazine",cyclic
+c1ccnc2c1nccn2,"Pyrido[2,3-b]pyrazine",cyclic
+c1ncnc2c1nccn2,Pteridine,cyclic
+O1C=CCc2c1cccc2,4H-chromene,cyclic
+O1c2c(C=CC1)cccc2,2H-chromene,cyclic
+C1c2c(C=CO1)cccc2,1H-isochromene,cyclic
+C1C=C2C=CC=CC2=CO1,3H-isochromene,cyclic
+O1C(C=Cc2c1cccc2)=O,2H-chromen-2-one,cyclic
+O1[NX3]C=Cc2c1cccc2,"2H-benzo[e][1,2]oxazine",cyclic
+O1C[NX2]=Cc2c1cccc2,"2H-benzo[e][1,3]oxazine",cyclic
+O1CC=[NX2]c2c1cccc2,"2H-benzo[b][1,4]oxazine",cyclic
+c1cccc2c1C=CC([NX3]2)=O,Quinolin-2(1H)one,cyclic
+c1cccc2c1C=C[NX3]C2=O,Isoquinoline-1(2H)-one,cyclic
+c1cccc2c1c3c(C2)cccc3,Fluorene,cyclic
+c1cccc2c1c3c([NX3]2)cccc3,Carbazole,cyclic
+c1cccc2c1c3c(O2)cccc3,Dibenzofuran,cyclic
+c1c2c(ccc1)cc3c([nX2]2)cccc3,Acridine,cyclic
+c1cccc2c1[nX2]c3c([nX2]2)cccc3,Phenazine,cyclic
+c1c2c(ccc1)[NX3]c3c(O2)cccc3,Phenoxazine,cyclic
+c1cccc2c1Sc3c([NX3]2)cccc3,Phenothiazine,cyclic
+c1cccc2c1Sc3c(O2)cccc3,Phenoxathiine,cyclic
+C1CC2CCN1CC2,Quinuclidine,cyclic
+C21CC3CC(C1)C[NX3](C2)C3,1-azaadamantane,cyclic
+C21CC3CC(C1)[NX3]C(C2)C3,2-azaadamantane,cyclic
+[NX3]1CCC=CC=C1,"2,3-dihydroazepine",cyclic
+[NX3]1CC=CCC=C1,"2,5-dihydroazepine",cyclic
+[NX2]1=CCCCC=C1,4-5-dihydroazepine,cyclic
+[NX2]1C=CC=CC=C1,Azepine,cyclic
+[NX2]1=CC=CC=CC1,2H-azepine,cyclic
+[NX2]1=CCC=CC=C1,3H-azepine,cyclic
+[NX3]1C=CC=CC=[NX2]1,"1,2-diazepine",cyclic
+[NX3]1C=[NX2]C=CC=C1,"1,3-diazepine",cyclic
+[NX3]1C=CC=[NX2]C=C1,"1,4-diazepine",cyclic
+O1CCCCCC1,Oxepane,cyclic
+S1C=CC=CC=C1,Thiepine,cyclic
+S1C=CC=[NX2]C=C1,"1,4-thiazepine",cyclic
+C1[NX3]CCCCCC1,Azocane,cyclic
+C1=CC=CC=CC=[NX2]1,Azocine,cyclic
+S1CCCCCCC1,Thiocane,cyclic
+[NX3]1CCCCCCCC1,Azonane,cyclic
+[NX2]1=CC=CC=CC=CC=C1,Azecine,cyclic
